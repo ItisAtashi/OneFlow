@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>OneFlow</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="nav container">
+            <a href="/" class="nav__brand">
+                <img src="svg-images/logo.svg" alt="" />
+            </a>
+            <div class="nav__menus">
+                <ul class="list nav__list">
+                    <li class="list__item"><a href="#">Why Oneflow?</a></li>
+                    <li class="list__item"><a href="#">Learn</a></li>
+                    <li class="list__item"><a href="#">Pricing</a></li>
+                    <li class="list__item"><a href="#">About</a></li>
+                    <li class="list__item"><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <a href="#" class="btn btn--accent">Get a demo</a>
+                <a href="#" class="btn btn--white">Log in</a>
+            </div>
+            <a href="#">
+                <svg class="icon">
+                    <use href="svg-images/sprite.svg#earth-icon"></use>
+                </svg>
+            </a>
+        </nav>
+
+        <!-- Hero section -->
+        <section class="block hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h2 class="hero__heading">Work wonders</h2>
+                    <p class="hero__description">
+                        Be more effective with smart contracts that make work
+                        faster, and life easier.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#" class="btn btn--accent">Get Oneflow free</a>
+                        <a href="#" class="btn btn--primary">Take a tour</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collabrate section -->
+        <section class="block collabrate">
+            <div class="container">
+                <div class="brand">
+                    <h2 class="brand__message">
+                        Join these companies making business flow
+                    </h2>
+                    <div class="brand__logos">
+                        <img src="images/brand-img-one.png" alt="" />
+                        <img src="images/brand-img-two.png" alt="" />
+                        <img src="images/brand-img-three.png" alt="" />
+                        <img src="images/brand-img-four.png" alt="" />
+                        <img src="images/brand-img-five.png" alt="" />
+                        <img src="images/brand-img-six.png" alt="" />
+                        <img src="images/brand-img-seven.png" alt="" />
+                    </div>
+                </div>
+                <div class="grid grid--1x2">
+                    <div class="collabrate__content">
+                        <h2 class="collabrate__heading">
+                            Turn signatures into smart contracts
+                        </h2>
+                        <p class="collabrate__description">
+                            Experience true contract magic by automating the
+                            entire contract process — from creating to signing
+                            and managing.
+                        </p>
+                        <a href="#" class="btn btn--accent"
+                            >Take our product tour</a
+                        >
+                    </div>
+                    <img
+                        class="collabrate__image"
+                        src="/svg-images/collabrate-img-one.svg"
+                        alt=""
+                    />
+                </div>
+                <div class="card collabrate-card">
+                    <div class="collabrate-card__header">
+                        <div class="collabrate__icon-container">
+                            <svg class="icon">
+                                <use href="svg-images/sprite.svg#create"></use>
+                            </svg>
+                            <span>Create</span>
+                        </div>
+                        <div class="collabrate__icon-container">
+                            <svg class="icon">
+                                <use
+                                    href="svg-images/sprite.svg#collabrate"
+                                ></use>
+                            </svg>
+                            <span>Collaborate</span>
+                        </div>
+                        <div class="collabrate__icon-container">
+                            <svg class="icon">
+                                <use href="svg-images/sprite.svg#sign"></use>
+                            </svg>
+                            <span>Sign</span>
+                        </div>
+                        <div class="collabrate__icon-container">
+                            <svg class="icon">
+                                <use href="svg-images/sprite.svg#manage"></use>
+                            </svg>
+                            <span>Manage</span>
+                        </div>
+                        <div class="collabrate__icon-container">
+                            <svg class="icon">
+                                <use href="svg-images/sprite.svg#analyze"></use>
+                            </svg>
+                            <span>Analyze</span>
+                        </div>
+                        <div class="collabrate__icon-container">
+                            <svg class="icon">
+                                <use
+                                    href="svg-images/sprite.svg#integrate"
+                                ></use>
+                            </svg>
+                            <span>Integrate</span>
+                        </div>
+                    </div>
+                    <div class="collabrate-card__content">
+                        <h2 class="collabrate-card__heading">Collaborate</h2>
+                        <p class="collabrate-card__description">
+                            Work together on one version in real-time. No hocus
+                            pocus.
+                        </p>
+                        <ul class="list list--tick">
+                            <li class="list__item">Edit live</li>
+                            <li class="list__item">Make fields interactive</li>
+                            <li class="list__item">Stay one step ahead</li>
+                        </ul>
+                        <a href="#" class="btn btn--darkgrey">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pressplay button -->
+        <div class="pressplay">
+            <video autoplay loop muted id="background-video">
+                <source src="/videos/1one.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Features block -->
+        <section class="features">
+            <div class="container">
+                <header class="features__header">
+                    <h2 class="features__heading">
+                        The complete platform for smart contracts
+                    </h2>
+                </header>
+                <div class="grid grid--1x2 feature__section">
+                    <div></div>
+                    <div class="feature__content">
+                        <div class="icon-container">
+                            <svg class="icon icon--main">
+                                <use
+                                    href="svg-images/sprite.svg#friction"
+                                ></use>
+                            </svg>
+                        </div>
+                        <h2 class="feature__heading">Forget friction</h2>
+                        <p class="feature__description">
+                            Experience a truly digital contract process that
+                            makes creating, signing, and managing agreements
+                            quick, smooth, and effortless. Contracts without
+                            trickery.
+                        </p>
+                        <a href="" class="btn btn--primary">Take the tour</a>
+                    </div>
+                </div>
+                <div class="grid grid--1x2 feature__section">
+                    <div></div>
+                    <div class="feature__content">
+                        <div class="icon-container">
+                            <svg class="icon icon--main">
+                                <use href="svg-images/sprite.svg#data"></use>
+                            </svg>
+                        </div>
+                        <h2 class="feature__heading">Unleash data</h2>
+                        <p class="feature__description">
+                            Get faster and smarter with automated processes and
+                            intelligent insights that unlock the data inside
+                            your agreements. Leave behind the limitations of
+                            paper and PDFs. Just like that.
+                        </p>
+                        <a href="" class="btn btn--primary">Take the tour</a>
+                    </div>
+                </div>
+                <div class="grid grid--1x2 feature__section">
+                    <div></div>
+                    <div class="feature__content">
+                        <div class="icon-container">
+                            <svg class="icon icon--main">
+                                <use href="svg-images/sprite.svg#control"></use>
+                            </svg>
+                        </div>
+                        <h2 class="feature__heading">Take control</h2>
+                        <p class="feature__description">
+                            Know what’s happening in real-time with a complete
+                            overview of all your contracts, all in one place.
+                            It’s all the visibility and transparency you need,
+                            at your fingertips.
+                        </p>
+                        <a href="" class="btn btn--primary">Take the tour</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Believe section -->
+        <section class="believe">
+            <div class="container">
+                <div class="believe__content">
+                    <h2 class="believe__heading">Believe your eyes</h2>
+                    <p class="believe__description">
+                        Let us show you how to work smarter with contracts in
+                        Oneflow.
+                    </p>
+                    <a href="#" class="btn btn--accent">Get a demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comment block -->
+        <section class="comment container">
+            <h2 class="comment__heading">Don’t just take our word for it…</h2>
+            <div class="grid comment__grid">
+                <div class="card comment-card">
+                    <p class="comment-card__content">
+                        With Oneflow, I’ve been able to reduce the time spent on
+                        admin significantly. Every hour that I used to spend on
+                        admin, can now be spent on selling and closing!
+                    </p>
+                    <a href="#" class="read-full-story">Read full story</a>
+                    <div class="author">
+                        <div class="author__image">
+                            <img src="svg-images/author-one.svg" alt="" />
+                        </div>
+                        <div class="author__details">
+                            <span class="author__name">Mattias Johnson</span>
+                            <span class="author__role"
+                                >Key Account Manager</span
+                            >
+                            <span class="author__company">Sweco</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card comment-card">
+                    <p class="comment-card__content">
+                        The fact that Oneflow is 100% digital makes it so simple
+                        and flexible. It gives us peace of mind by providing
+                        control and a complete overview of our contract process
+                        at all times.
+                    </p>
+                    <a href="#" class="read-full-story">Read full story</a>
+                    <div class="author">
+                        <div class="author__image">
+                            <img src="svg-images/author-two.svg" alt="" />
+                        </div>
+                        <div class="author__details">
+                            <span class="author__name">Elin Skoglund</span>
+                            <span class="author__role"
+                                >HR Business Partner</span
+                            >
+                            <span class="author__company">Hedin Bil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card comment-card">
+                    <p class="comment-card__content">
+                        From board meeting protocols to GDPR agreements, and
+                        approval of keycards — Oneflow has removed the pains we
+                        weren’t even aware of.
+                    </p>
+                    <a href="#" class="read-full-story">Read full story</a>
+                    <div class="author">
+                        <div class="author__image">
+                            <img src="svg-images/author-three.svg" alt="" />
+                        </div>
+                        <div class="author__details">
+                            <span class="author__name">Tor Myhrman</span>
+                            <span class="author__role"
+                                >Head of Indirect Sourcing</span
+                            >
+                            <span class="author__company">Systembolaget</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integration section -->
+        <section class="integration container">
+            <div class="grid grid--1x2">
+                <div class="integration__content">
+                    <h2 class="integration__heading">Seamless integrations</h2>
+                    <p class="integration__description">
+                        Integrate your favorite tools with your contract
+                        workflow and work wonders.
+                    </p>
+                    <a href="#" class="btn btn--accent"
+                        >View all integrations</a
+                    >
+                </div>
+                <div class="integration__companies">
+                    <img class="cmp-one" src="/svg-images/cmp-1.svg" alt="" />
+                    <img class="cmp-two" src="/svg-images/cmp-2.svg" alt="" />
+                    <img class="cmp-three" src="/svg-images/cmp-3.svg" alt="" />
+                    <img class="cmp-four" src="/svg-images/cmp-4.svg" alt="" />
+                    <img class="cmp-five" src="/svg-images/cmp-5.svg" alt="" />
+                    <img class="cmp-six" src="/svg-images/cmp-6.svg" alt="" />
+                    <img class="cmp-seven" src="/svg-images/cmp-7.svg" alt="" />
+                    <img class="cmp-eight" src="/svg-images/cmp-8.svg" alt="" />
+                    <img class="cmp-nine" src="/svg-images/cmp-9.svg" alt="" />
+                    <img class="cmp-ten" src="/svg-images/cmp-1.svg" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Next trick -->
+        <div class="next-touch container">
+            <h1 class="next-touch__heading">And for our next trick…</h1>
+            <a href="#" class="btn btn--accent">Visit our blog</a>
+        </div>
+
+        <!-- Guide section -->
+        <section class="guide container">
+            <div class="grid grid--1x2 card guide-card-big">
+                <div class="guide-card-big__content">
+                    <span class="badge badge--purple">Article</span>
+                    <h2 class="guide-card-big__heading">
+                        A Basic Guide on E-signatures and What Makes Them
+                        Legally Binding
+                    </h2>
+                    <span class="e-signature">E-signature|</span>
+                    <span class="time-read">11 min read</span>
+                </div>
+                <img src="/svg-images/guide-card-tel.svg" alt="" />
+            </div>
+            <div class="grid grid--1x3 guide-small-cards">
+                <div class="card guide-small-card">
+                    <img src="/svg-images/guid-card-pic1.svg" alt="" />
+                    <div class="guide-small-card__content">
+                        <span class="badge badge--pink">Guide</span>
+                        <p class="guide-small-card__description">
+                            29 documents you can sign online in 2021
+                        </p>
+                        <div class="topic-time">
+                            <span>Contract automation |</span>
+                            <span>18 min reads</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card guide-small-card">
+                    <span class="badge badge--cornflowerblue"
+                        >Customer Story</span
+                    >
+                    <span class="sweco">Sweco</span>
+                    <a href="#" class="btn btn--midnightblue"
+                        >Read full story</a
+                    >
+                </div>
+                <div class="card guide-small-card">
+                    <img src="/svg-images/guide-card-pic2.svg" alt="" />
+                    <div class="guide-small-card__content">
+                        <span class="badge badge--purple">Article</span>
+                        <p class="guide-small-card__description">
+                            Master digital sales: How to close deals when you’re
+                            not allowed to shake hands
+                        </p>
+                        <div class="topic-time">
+                            <span>Sales|</span>
+                            <span>6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Posts section -->
+        <section class="posts container">
+            <h2 class="posts__heading">More from Oneflow</h2>
+            <div class="grid grid--1x2 post__articles">
+                <article class="post-card">
+                    <img
+                        src="svg-images/rabbit.svg"
+                        alt=""
+                        class="post-card__image"
+                    />
+                    <div class="post-card__content">
+                        <h2 class="post-card__title">
+                            One platform. All departments
+                        </h2>
+                        <p class="post-card__description">
+                            Create, sign and manage any type of agreement you
+                            can think of
+                        </p>
+                        <a href="#" class="btn btn--accent post-card__cta"
+                            >Find out more</a
+                        >
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img
+                        src="svg-images/hand-showing-up.svg"
+                        alt=""
+                        class="post-card__image"
+                    />
+                    <div class="post-card__content">
+                        <h2 class="post-card__title">Why Oneflow</h2>
+                        <p class="post-card__description">
+                            Six reasons why teams around the world love the
+                            magic of flow
+                        </p>
+                        <a href="#" class="btn btn--accent post-card__cta"
+                            >Find out more</a
+                        >
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="grid footer__sections">
+                    <div class="footer__section">
+                        <img src="/svg-images/logo-footer.svg" alt="" />
+                        <div class="website-info">
+                            <span>Headquarters:</span>
+                            <span>Hudiksvallsgatan 8</span>
+                            <span>113 30 Stockholm, Sweden</span>
+                            <span>+46 8 517 297 70</span>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div class="footer__section">
+                        <h3 class="footer__section-heading">Why Oneflow</h3>
+                        <ul class="list footer__list">
+                            <li class="list__item">Product tour</li>
+                            <li class="list__item">Smart contracts</li>
+                            <li class="list__item">Built for scale</li>
+                            <li class="list__item">Integrations</li>
+                            <li class="list__item">Customer stories</li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h3 class="footer__section-heading">Learn</h3>
+                        <ul class="list footer__list">
+                            <li class="list__item">FAQ</li>
+                            <li class="list__item">Onboarding</li>
+                            <li class="list__item">Developers</li>
+                            <li class="list__item">Help Center</li>
+                            <li class="list__item">E-sign guide</li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h3 class="footer__section-heading">Security</h3>
+                        <ul class="list footer__list">
+                            <li class="list__item">Security Center</li>
+                            <li class="list__item">Reliability</li>
+                            <li class="list__item">Compliance</li>
+                            <li class="list__item">E-signing legality</li>
+                            <li class="list__item">GDPR</li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <ul class="list footer__list">
+                            <li class="list__item">More Oneflow</li>
+                            <li class="list__item">About us</li>
+                            <li class="list__item">Pricing</li>
+                            <li class="list__item">Partners</li>
+                            <li class="list__item">Blog</li>
+                            <li class="list__item">Careers</li>
+                            <li class="list__item">Contact</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="callout">
+                    <div class="callout__content">
+                        <span class="callout__heading">Get in the flow</span>
+                        <p class="callout__description">
+                            Send, track and sign your contracts free for the
+                            rest of your life. No trickery.
+                        </p>
+                    </div>
+                    <div class="callout__btn">
+                        <a href="#" class="btn btn--accent">
+                            Get Oneflow free
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <span>Login</span>
+                    <span>Privacy</span>
+                    <span>Cookie statement</span>
+                    <a href="#">
+                        <svg class="icon">
+                            <use href="svg-images/sprite.svg#earth-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
